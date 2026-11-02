@@ -34,7 +34,6 @@
 
 - **원천 데이터(약 4 GB, shp·격자·위성영상)는 포함하지 않습니다.** 원천 폴더(`s1_data/s1_org_data/`)와 shp 계열, 100m 격자 파일은 제외했습니다.
 - `data/processed/`에는 분석 결과 재현과 대시보드 실행에 필요한 **가공 GeoJSON/CSV(25 MB 미만 파일만, 총 약 80 MB)** 를 포함했습니다. 목록과 크기는 `_manifest.md`에 있습니다.
-- 대시보드 `modules/config.py`가 참조하는 `dong_service_score_fixed.csv`, `seoul_100m_grid_population.shp`는 포함하지 않았습니다. 아래 "실행 방법"의 재생성 절차를 따르세요.
 
 ## 분석 방법
 
