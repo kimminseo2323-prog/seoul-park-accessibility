@@ -1,0 +1,19 @@
+# Web Framework
+dash>=2.14.0
+dash-bootstrap-components>=1.5.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# GIS Libraries
+geopandas>=0.14.0
+shapely>=2.0.0
+pyproj>=3.6.0
+
+# Visualization
+plotly>=5.18.0
+
+# Spatial Analysis (for future LISA/Moran implementation)
+libpysal>=4.9.0
+esda>=2.5.0

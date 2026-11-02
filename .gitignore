@@ -1,0 +1,45 @@
+# data
+data/raw/
+*.xlsx
+*.xls
+*.csv
+!data/sample/*.csv
+!data/processed/*.csv
+!data/processed/*.geojson
+*.pkl
+*.parquet
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qgz
+*.zip
+*.hwp
+*.hwpx
+*.pptx
+*.mp3
+*.mkv
+*.mp4
+# secrets / env
+.env
+.env.*
+*.pem
+*.key
+.claude/
+.streamlit/
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+# logs
+*.log
+logs/
+# os / ide
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
